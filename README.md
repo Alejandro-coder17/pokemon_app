@@ -1,16 +1,21 @@
 # pokemon_app
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Pantalla principal
 
-A few resources to get you started if this is your first Flutter project:
+Empezamos con una pantalla de principal con forma de pokedex. Esta pantalla conecta con la lista de pokemons
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Pantalla principal](pantallas/principal.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Lista de pokemons
+
+En esta pantalla se listan los pokemons en dos columnas.Esto genera una mejor visión de los pokemons en el dispositivo movil. Cada card muestra la imagen, nombre y tipos del pokemon.
+
+![Lista de pokemons](pantallas/pokemon_list.png)
+
+### Información del pokemon
+
+Esta pantalla muestra la información del pokemon seleccionado en la lista de pokemons. Se muestra mayor información del pokemon seleccionado.
+
+![Información del pokemon](pantallas/info_pokemon.png)
